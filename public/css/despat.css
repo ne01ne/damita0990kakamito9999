@@ -1,0 +1,221 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+
+.tpo img{
+    width: 100%;
+}
+
+
+.inde img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+.kolo{
+    padding: 0 45px;
+    display: grid;
+}
+form{
+    display: grid;
+}
+/* form starting stylings ------------------------------- */
+.group { 
+    position:relative; 
+    margin-bottom:25px; 
+  }
+  input {
+    font-size:14px;
+    padding:10px 10px 10px 12px;
+    display:block;
+    width:100%;
+    border:none;
+    border-bottom:1.6px solid #dfdfdf;
+    
+    padding-top: 25px;padding-bottom: 5px;
+    color: rgb(17, 17, 17);
+  }
+  input:focus 		{ outline:none;
+    border-bottom: #4db9dd solid 1.6px;
+}
+  
+  /* LABEL ======================================= */
+  label {
+    color:rgb(159, 159, 159); 
+    font-size:16px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:10px;
+    top:20px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+    font-weight: 400;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label {
+    top:2px;
+    font-size:12px;
+    color:rgb(144, 144, 144);
+  }
+  
+ 
+.pp1{
+    color: rgb(92, 151, 211);
+    justify-self: end;
+    margin-top: -20px;
+
+}
+
+button{
+    background-color: #4EA800;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 100%;
+    justify-self: center;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+
+
+
+
+.cc{
+    background-color:#eeeeee ;
+    padding: 30px 15px;
+}
+.lkhawi form{
+    padding: 0 20px;
+}
+.lkhawi input{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(228, 228, 228);
+}
+/* .clear input{
+    margin-top: 10px;
+    margin-bottom: 17px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+} */
+.clear .nar1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.clear .nar{
+    display: flex;
+    width: 100%;
+    
+}
+.clear .nar input{
+    width: 100%;
+}
+
+.clear .nar2{
+    margin-left: 15px;
+}
+
+.lkhawi button{
+   
+    color: #FFF;
+    font-size: 1rem;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.resal{
+    width: 100%;
+  
+    
+}
+.p1{
+    font-size: 22px;
+    font-weight: 600;
+}
+.p2{
+    margin: 15px 0;
+
+}
+
+.p3{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 35px 15px;
+}
+
+p{
+    color: white;
+}
+
+.p4{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 35px 15px;
+}
+
+.p-0{
+    color: rgb(171, 171, 171);
+    font-size: 13px;
+}
+
+
+.cceta{
+    display: flex;
+    width: 100%;
+    border-bottom:1.6px solid #dfdfdf;
+    
+    
+    align-items: center;
+}
+.cceta input{
+    border: none;
+    background: none;
+}
+.cceta svg{
+    margin-top: 23px;
+}
+
+
+.boito img{
+    width: 100%;
+    margin-top: 90%;
+}
+
+
+.teht{
+    margin-top: -45px;
+}
+.btn-0{
+    border: none;
+    background: none;
+    margin: 0;
+    margin-top: -20px;
+}
+
+
+.bton1{
+    margin-top: -10px;
+}
